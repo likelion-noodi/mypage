@@ -1,0 +1,61 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-image: url("/assets/imgback.jpg");
+  width: 100%;
+}
+
+body a {
+  color: black;
+}
+
+#body{
+  min-height: 100%
+}
+
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  height: 10%;
+}
+
+.text-muted {
+  padding-bottom: 5px;
+}
+
+.footer {
+  text-align: center;
+  height: 10%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    background-color: white;
+    max-width: 730px;
+    min-height: 100%;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+  }
+}
+
+.jumbotron {
+  margin-top: 20px;
+  height: 80%;
+}
+
+
+
+.imgMe {
+  width: 100%;
+}
